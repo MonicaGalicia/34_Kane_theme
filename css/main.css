@@ -207,6 +207,18 @@ button{
 textarea{
 	height:300px;
 }
+
+.bg-espiga{
+	background-image:url("../img/img-divider-img.jpg");
+height:400px;
+
+}
+#grey{
+	color:#3b3b37;
+}
+.mg-left17{
+	margin-left:17%;
+}
 @media screen and (max-width: 600px) {
   .font-title{
 	font-size:2.3em;
