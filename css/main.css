@@ -6,7 +6,7 @@ nav.navbar{
 }
 
 #navegacion{
-	margin-left:50%;
+	margin-left:40%;
 }
 
 .li{
@@ -18,13 +18,10 @@ img{
   margin-top:0%;
   
 }
-
-.container-fluid {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+body {
+    overflow-x: hidden;
 }
+
 .bg-header{
 	background-image:url("../img/carousel-bg.jpg");
     height:500px;
@@ -150,6 +147,7 @@ hr{
 #img-about{
 	width:70%;
 	height:300px;
+	
 }
 
 .progress{
@@ -214,8 +212,8 @@ input, textarea{
 
 }
 
-textarea{
-	height:500px;
+.height{
+   height:200px;
 }
 .bg-espiga{
 	background-image:url("../img/img-divider-img.jpg");
@@ -234,7 +232,7 @@ height:400px;
 	margin-left:5%;
 }
 
-.div-icon:hover{
+.rotate:hover{
  
  	background-color: #0F454C;
 }
@@ -247,8 +245,45 @@ height:400px;
 	color:#CE642F;
 
 }
+
+.border-green{
+	border:solid green 3px;
+	width:80%;
+	height:400px;
+	margin-left:12%;
+	margin-top:3%;
+}
+
+.start{
+	background-color:#273f4d;
+	height:45px;
+	padding:3px;
+}
+
+.free{
+	background-color:green;
+	height:90px;
+}
+
+.info{
+	height:30px;
+	background-color:#273f4d;
+}
+.bg-white{
+	background-color:white;
+}
+
+.singup{
+	margin:auto;
+	display:block;
+}
+
 @media screen and (max-width: 600px) {
   .font-title{
 	font-size:2.3em;
 }
+ .redesoci{
+ 	width:90px;
+ 	margin-left:10%;
+ }
 }
