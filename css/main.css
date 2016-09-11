@@ -156,6 +156,28 @@ hr{
 	width:60%;
 	height:10px;
 }
+.bg-green{
+	background-color:#42926b;
+}
+
+.div-icon{
+	width:50%;
+}
+
+.rotate: hover
+{
+ -ms-transform: rotate(7deg); /* IE 9 */
+ -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+ transform: rotate(7deg);
+ 
+ }
+
+button{
+	background-color: #3b3b37;
+	border-color:#3b3b37;
+	color:text-white;
+	margin:2% 0%;
+}
 @media screen and (max-width: 600px) {
   .font-title{
 	font-size:2.3em;
