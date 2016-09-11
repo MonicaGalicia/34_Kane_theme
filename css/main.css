@@ -158,19 +158,21 @@ hr{
 }
 .bg-green{
 	background-color:#42926b;
+    padding-bottom:2%;
 }
 
 .div-icon{
 	width:50%;
+	padding:2%;
 }
 
-.rotate: hover
-{
- -ms-transform: rotate(7deg); /* IE 9 */
- -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
- transform: rotate(7deg);
- 
- }
+.rot90 {
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	rotation: 90deg;
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+}
+
 
 button{
 	background-color: #3b3b37;
@@ -178,7 +180,9 @@ button{
 	color:text-white;
 	margin:2% 0%;
 }
+.padding-bottom{
 
+}
 .hr-dashed{
 	border:#393a37 dashed 0.2px;
 	width:120%;
@@ -204,20 +208,44 @@ button{
 	height:30px;
 }
 
-textarea{
-	height:300px;
+input, textarea{
+	width:400px;
+	height:40px;
+
 }
 
+textarea{
+	height:500px;
+}
 .bg-espiga{
 	background-image:url("../img/img-divider-img.jpg");
 height:400px;
 
 }
+
 #grey{
 	color:#3b3b37;
 }
 .mg-left17{
 	margin-left:17%;
+}
+.redesoci{
+	margin-top:10%;
+	margin-left:5%;
+}
+
+.div-icon:hover{
+ 
+ 	background-color: #0F454C;
+}
+ 
+.rot:hover{
+	-webkit-transform: rotate(20deg);
+}
+
+.hover-org:hover{
+	color:#CE642F;
+
 }
 @media screen and (max-width: 600px) {
   .font-title{
