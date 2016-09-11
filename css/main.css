@@ -1,0 +1,157 @@
+nav.navbar{
+	background-color:#0A7F51;
+    padding:2% 2%;
+    width:100%;
+
+}
+
+#navegacion{
+	margin-left:50%;
+}
+
+.li{
+	text-transform:uppercase;
+}
+
+.logo{margin-left:15%}
+img{
+  margin-top:0%;
+  
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.bg-header{
+	background-image:url("../img/carousel-bg.jpg");
+    height:500px;
+	
+}
+
+.jumbotron{
+	background-color:transparent;
+	color:white;
+}
+
+.text-white{
+	color:white;
+}
+
+.font-title{
+	font-size:3em;
+}
+
+hr{
+	border-color:black;
+	width:20%;
+}
+#color-hexa1{
+	background-color:#69D2E7;
+}
+#color-hexa2{
+	background-color:#A7DBDB;
+}
+#color-hexa3{
+	background-color:#E0E4CC;
+}
+#color-hexa4{
+	background-color:#F38630;
+}
+
+#color-hexa5{
+	background-color:#FA6900;
+}
+#color-hexa6{
+	background-color:#FFFFFF;/*no cambiar*/
+}
+#color-hexa7{
+	background-color:#E94C6F;
+}
+#color-hexa8{
+	background-color:#542733;
+}
+#color-hexa9{
+	background-color:#5A6A62;
+}
+#color-hexa10{
+	background-color:#C6D5CD;
+}
+#color-hexa11{
+	background-color:#FDF200;
+}
+#color-hexa12{
+	background-color:#DB3340;
+}
+#color-hexa13{
+	background-color:#e8b71a;
+}
+#color-hexa14{
+	background-color:#F7EAC8;
+}
+#color-hexa15{
+	background-color:#1FDA9A;
+}
+#color-hexa16{
+	background-color:#28ABE3;
+}
+#color-hexa17{
+	background-color:#588C73;
+}
+#color-hexa18{
+	background-color:#F2E394;
+}
+#color-hexa19{
+	background-color:#F2AE72;
+}
+#color-hexa20{
+	background-color:#D96459;
+}
+#color-hexa21{
+	background-color:#8C4646;
+}
+#color-hexa22{
+	background-color:#D0C91F;
+}
+#color-hexa23{
+	background-color:#85C4B9;
+}
+#color-hexa24{
+	background-color:#0088BA;
+}
+#color-hexa25{
+	background-color:#DF514C;
+}
+#color-hexa26{
+	background-color:#DC403B;
+}
+
+.colorheight{   /*altura color selector*/
+	height:120px;
+	margin-bottom:1%;
+}
+
+.bg-about{
+	background-color:#273f4d;
+}
+
+.hr-white{
+	border-color:white;
+	width:12%;
+}
+
+.mg-left{
+   margin-left:6%;
+}
+
+#img-about{
+	width:70%;
+	height:300px;
+}
+@media screen and (max-width: 600px) {
+  .font-title{
+	font-size:2.3em;
+}
+}
