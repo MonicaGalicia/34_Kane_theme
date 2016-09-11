@@ -135,6 +135,7 @@ hr{
 
 .bg-about{
 	background-color:#273f4d;
+   
 }
 
 .hr-white{
@@ -149,6 +150,11 @@ hr{
 #img-about{
 	width:70%;
 	height:300px;
+}
+
+.progress{
+	width:60%;
+	height:10px;
 }
 @media screen and (max-width: 600px) {
   .font-title{
