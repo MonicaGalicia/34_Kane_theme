@@ -269,6 +269,7 @@ body {
     width: 260px;
     border-radius: 6px;
     border:solid green;
+    margin-bottom:2%;
 }
 
 .border-green:hover{

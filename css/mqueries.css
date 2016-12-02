@@ -1,0 +1,42 @@
+
+@media (min-width: 768px) and (max-width: 1024px)  {
+
+#img-about{
+	width:50%;
+	height:200px;
+	
+}
+
+.border-green{
+	margin:auto;
+	display:center;
+    margin-bottom:2%;
+}
+
+ .redesoci{
+	margin-top:13%;
+	margin-left:17%;
+	width:60px;
+}
+
+}
+
+@media (min-width: 300px) and (max-width: 750px){
+	 .redesoci{
+	
+	margin-left:25%;
+	width:60px;
+}
+
+#img-about{
+	width:40%;
+	height:180px;
+	margin:auto;
+	display:center;
+	margin-bottom:5%;
+	
+}
+}
+
+
+
