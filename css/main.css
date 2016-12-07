@@ -63,9 +63,7 @@ nav.navbar{
 	float:right;
 }
 
-body {
-    overflow-x: hidden;
-}
+
 .bg-header{
 	background-image:url("../img/carousel-bg.jpg");
     height:500px;
@@ -351,12 +349,9 @@ margin:2% 0%;
 
 @media screen and (max-width: 600px) {
   .font-title{
-	font-size:2.3em;
+	font-size:1.3em;
 }
- .redesoci{
- 	widows: 7px;0px;
- 	margin-left:15%;
- }
+ 
 	}
 
 
